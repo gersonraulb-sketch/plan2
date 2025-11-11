@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const actual = 2024
+        let nacimiento = prompt("Que año nacio")
+
+        if (nacimiento > actual) {
+            alert('invalido')
+        } else if (nacimiento < 1900) {
+            alert('invalido')
+        } else {
+            const edad = actual - nacimiento
+            alert("Su edad es: " + edad)
+        }
+    </script>
+</body>
+
+</html>
