@@ -1,1 +1,2 @@
-import saludo from "./03.js";
+import config from './03.js';
+console.log(config.modo);

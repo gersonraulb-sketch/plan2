@@ -1,1 +1,2 @@
-import saludo from "./04.js";
+import obtenerDato from './04.js';
+obtenerDato().then(console.log);
